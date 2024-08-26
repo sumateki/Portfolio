@@ -1,0 +1,2 @@
+- Technologies used in this application are
+    - HTML, CSS, and JavaScript
