@@ -3,7 +3,7 @@
       height: 83vh;
       margin-bottom: 6rem;
     }
-    .about-containers {
+    .abt-container {
       flex-wrap: wrap;
     }
     #contact,
@@ -13,14 +13,14 @@
   }
   
   @media screen and (max-width: 1200px) {
-    #desktop-nav {
+    #nav-header {
       display: none;
     }
     #hamburger-nav {
       display: flex;
     }
     #experience,
-    .experience-details-container {
+    .experience-details-cont {
       margin-top: 2rem;
     }
     #profile,
@@ -37,12 +37,12 @@
     section {
       margin: 0 5%;
     }
-    .section__pic-container {
+    .my_pic {
       width: 275px;
       height: 275px;
       margin: 0 auto 2rem;
     }
-    .about-containers {
+    .abt-container {
       margin-top: 0;
     }
   }
@@ -63,7 +63,7 @@
       height: fit-content;
       margin-bottom: 2rem;
     }
-    .about-containers,
+    .abt-container,
     .contact-info-upper-container,
     .btn-container {
       flex-wrap: wrap;
@@ -86,12 +86,12 @@
       gap: 0.5rem;
       text-align: center;
     }
-    .section__pic-container {
+    .my_pic {
       width: auto;
       height: 46vw;
       justify-content: center;
     }
-    .section__text__p2 {
+    .section-text-p2 {
       font-size: 1.25rem;
     }
     .title {
